@@ -22,18 +22,24 @@ namespace pick_a_door
 
             if (selection == "1")
             {
+                Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine("behind door 1 is a didgerdildo ");
+                
             }
             else if (selection == "2")
             {
+                Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("behind door 2 is asscancer you have been infected");
+
             }
             else if (selection == "3")
             {
+                Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("behind door 3 is the coopers dignity. He lost it a while ago.");
             }
             else
             {
+                
                 Console.WriteLine("that aint a door bitch");
             }
 
