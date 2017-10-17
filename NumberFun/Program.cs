@@ -20,10 +20,10 @@ namespace NumberFun
 
             //output
 
-                Console.WriteLine("X plus Y = " + (X + Y))  ;
-                Console.WriteLine("X times Y = " + (X * Y)) ;
-                Console.WriteLine("X minus Y = " + (X - Y)) ;
-                Console.WriteLine("X divided by Y = " + (X / Y)) ;
+                Console.WriteLine($"{X} plus {Y} = {(X + Y)}")  ;
+                Console.WriteLine($"{X} times {Y} =  {(X * Y)}") ;
+                Console.WriteLine($"{X} minus {Y} =  {(X - Y)} ") ;
+                Console.WriteLine($"{X} divided by {Y} =  {(X / Y)}") ;
 
             //Wait at end
             Console.ReadLine();
