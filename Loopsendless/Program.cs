@@ -23,16 +23,16 @@ namespace Loopsendless
             for (int x = 1; ; x++ )
             {
                 Console.Write(x);
-            }
 
-            if(num % 2 == 0)
-            {
-                Console.BackgroundColor = ConsoleColor.DarkGray;
-            }
+                if (num % 2 == 0)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkGray;
+                }
+                else if (num % 3 == 0)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
 
-            else (num % 3 == 0)
-            {
-                Console.BackgroundColor = ConsoleColor.DarkGreen;
+                }
             }
         }
     }
