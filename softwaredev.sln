@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pick a door", "pick a door\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Age Program", "Age Program\Age Program.csproj", "{15140422-ECB9-4DDF-8394-A99654A0042E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{AE822EE4-4C65-4692-BA8F-0D424F6A7980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loopsendless", "Loopsendless\Loopsendless.csproj", "{18E86D9B-3E6A-4FAD-9D52-2F67FD64F46D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{15140422-ECB9-4DDF-8394-A99654A0042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15140422-ECB9-4DDF-8394-A99654A0042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15140422-ECB9-4DDF-8394-A99654A0042E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE822EE4-4C65-4692-BA8F-0D424F6A7980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE822EE4-4C65-4692-BA8F-0D424F6A7980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE822EE4-4C65-4692-BA8F-0D424F6A7980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE822EE4-4C65-4692-BA8F-0D424F6A7980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E86D9B-3E6A-4FAD-9D52-2F67FD64F46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E86D9B-3E6A-4FAD-9D52-2F67FD64F46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E86D9B-3E6A-4FAD-9D52-2F67FD64F46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E86D9B-3E6A-4FAD-9D52-2F67FD64F46D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
