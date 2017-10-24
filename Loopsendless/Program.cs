@@ -25,7 +25,15 @@ namespace Loopsendless
                 Console.Write(x);
             }
 
-            if (x = ) ;
+            if(num % 2 == 0)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkGray;
+            }
+
+            else (num % 3 == 0)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkGreen;
+            }
         }
     }
 }
