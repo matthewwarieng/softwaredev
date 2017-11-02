@@ -47,12 +47,12 @@ namespace RockPaperScissors
 
         private static void UpdateScores(string result, ref int userScore, ref int compScore)
         {
-            if (result == "win")
+            if (result == "Win")
             {
                 userScore++;
             }
 
-            else if (result == "lose")
+            else if (result == "Lose")
             {
                 compScore++;
             }
@@ -60,7 +60,7 @@ namespace RockPaperScissors
 
         private static void GiveFeedback(string result, string userChoice, object computerChoice)
         {
-            
+            Console.WriteLine($"{result}! you chose {userChoice} and the computer chose {computerChoice}!");
         }
 
         private static string DetermineWinner(string userChoice, string compChoice)
@@ -79,7 +79,7 @@ namespace RockPaperScissors
 
                 else 
                 {
-                    return "win";
+                    return "Win";
                 }
             }
 
@@ -87,35 +87,35 @@ namespace RockPaperScissors
             {
                 if (compChoice == "Rock")
                 {
-                    return "win";
+                    return "Win";
                 }
 
                 else if (compChoice == "Paper")
                 {
-                    return "draw";
+                    return "Draw";
                 }
 
                 else 
                 {
-                    return "lose";
+                    return "Lose";
                 }
             }
 
-            else if (userChoice == "Scissors")
+            else
             {
                 if (compChoice == "Rock")
                 {
-                    return "lose";
+                    return "Lose";
                 }
 
                 else if (compChoice == "Paper")
                 {
-                    return "win";
+                    return "Win";
                 }
 
                 else 
                 {
-                    return "draw";
+                    return "Draw";
                 }
             }
 
@@ -123,7 +123,23 @@ namespace RockPaperScissors
 
         private static string compTurn()
         {
-            
+            Random rnd = new Random();
+            int choice = rnd.Next(1, 4);
+
+            if (choice == 1)
+            {
+                return "Rock";
+            }
+
+            else if (choice == 2)
+            {
+                return "Paper";
+            }
+
+            else
+            {
+                return "Scissors";
+            }
         }
 
         private static string UserTurn()
@@ -131,18 +147,33 @@ namespace RockPaperScissors
             string choice = "";
             while (choice != "1" && choice != "2" && choice != "3")
             {
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.WriteLine("");
+                Console.WriteLine("1. Rock");
+                Console.WriteLine("2. Paper");
+                Console.WriteLine("3.Scissors");
+                Console.WriteLine("your choice: ");
                 choice = Console.ReadLine();
+            }
+
+            if (choice == "1")
+            {
+                return "Rock";
+            }
+
+            else if (choice == "2")
+            {
+                return "paper";
+            }
+
+            else
+            {
+                return "Scissors";
             }
         }
 
         private static void PrintScore(ref int userScore, ref int compScore)
         {
             Console.Clear();
-            Console.WriteLine($"User Score:{userScore} \t\t {compScore}");
+            Console.WriteLine($"User Score: {userScore} \t\t computerscore: {compScore}");
         }
     }
 }
