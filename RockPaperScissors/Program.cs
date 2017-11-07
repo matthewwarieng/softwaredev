@@ -406,7 +406,7 @@ namespace RockPaperScissors
 
             else if (choice == "2")
             {
-                return "paper";
+                return "Paper";
             }
 
             else if (choice == "3")
@@ -421,7 +421,7 @@ namespace RockPaperScissors
 
             else
             {
-                return "spock";
+                return "Spock";
             }
         }
 
