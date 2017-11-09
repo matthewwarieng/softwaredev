@@ -47,7 +47,7 @@ namespace magic8ball
                 Console.WriteLine("would you like to ask another question?");
 
                 string playagain = ( Console.ReadLine());
-                if ( playagain == "'yes" || "y")
+                if ( playagain == "yes" || playagain == "y")
                 {
                     playgame();
                 }
