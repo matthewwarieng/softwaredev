@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insultGenerator", "insultGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabyBlackJack", "BabyBlackJack\BabyBlackJack.csproj", "{19F27A4F-FF0C-4710-9F21-66B35A65E833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{19F27A4F-FF0C-4710-9F21-66B35A65E833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F27A4F-FF0C-4710-9F21-66B35A65E833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F27A4F-FF0C-4710-9F21-66B35A65E833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
