@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabyBlackJack", "BabyBlackJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diceSimulator", "diceSimulator\diceSimulator.csproj", "{5954EACB-45FD-4AB2-AD4E-D69346DD2B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E4E773E-6A64-494F-84F9-FE5EF53D0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5954EACB-45FD-4AB2-AD4E-D69346DD2B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5954EACB-45FD-4AB2-AD4E-D69346DD2B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5954EACB-45FD-4AB2-AD4E-D69346DD2B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5954EACB-45FD-4AB2-AD4E-D69346DD2B0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
